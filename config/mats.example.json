@@ -1,0 +1,13 @@
+{
+  "venueId": "WAB-TKD-VENUE-01",
+  "centralServer": "https://YOUR-PRODUCTION-DOMAIN",
+  "mats": [
+    { "matNumber": 1, "deviceId": "WAB-MAT-01", "mode": "CONTROL", "enabled": true },
+    { "matNumber": 2, "deviceId": "WAB-MAT-02", "mode": "CONTROL", "enabled": true },
+    { "matNumber": 3, "deviceId": "WAB-MAT-03", "mode": "CONTROL", "enabled": true },
+    { "matNumber": 4, "deviceId": "WAB-MAT-04", "mode": "CONTROL", "enabled": true }
+  ],
+  "publicDisplays": [
+    { "displayId": "WAB-PUBLIC-01", "mode": "PUBLIC", "enabled": true }
+  ]
+}

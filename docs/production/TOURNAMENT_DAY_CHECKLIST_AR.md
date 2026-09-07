@@ -1,0 +1,21 @@
+# WAB-TKD — Tournament Day Checklist
+
+- [ ] Production URL reachable
+- [ ] Database online
+- [ ] All MAT PCs identified uniquely
+- [ ] Each MAT has correct weight assignment
+- [ ] Public Display connected
+- [ ] Referee accounts ready
+- [ ] Supervisor/Admin accounts ready
+- [ ] Backup created
+- [ ] Restore procedure available
+- [ ] Dry-run executed
+- [ ] Individual flow ready
+- [ ] Par Équipe flow ready
+- [ ] Save/Restore ready
+- [ ] Next Match queue ready
+- [ ] Bracket ready
+- [ ] Statistics / Ranking / MVP ready
+- [ ] Broadcast ready
+- [ ] Emergency recovery procedure available
+- [ ] Final export location prepared

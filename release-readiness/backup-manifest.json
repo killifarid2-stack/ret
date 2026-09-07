@@ -1,0 +1,22 @@
+{
+  "createdAt": "2026-09-05T09:36:19.624Z",
+  "version": "WAB-TKD-v41-RELEASE-CANDIDATE",
+  "files": [
+    {
+      "file": "package.json",
+      "sha256": "8f0e614626c54be0f7e4897edca438018f619c90835f669d731b712202ac6b10"
+    },
+    {
+      "file": "bun.lock",
+      "sha256": "e87238152ba9f26305fadd458ca0d9f50da9a54bdda4c521c02daf6bf29ffc20"
+    },
+    {
+      "file": "README.md",
+      "sha256": "27d387f6b43eaea2e533540febfd8e9396e89533b731b977a4acb6c801475368"
+    },
+    {
+      "file": "config/mats.example.json",
+      "sha256": "2ec5697eb5a75cb4f078a45c4deaf8b8342127a79aebf10166076d415391b795"
+    }
+  ]
+}

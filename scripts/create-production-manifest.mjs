@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import path from 'node:path';
+fs.mkdirSync('release',{recursive:true});
+const files = ['package.json','package-lock.json','bun.lock','vercel.json','vite.config.ts','.env.example','supabase/config.toml'];
+const migrations = fs.readdirSync('supabase/migrations').filter(f=>f.endsWith('.sql')).sort().map(f=>`supabase/migrations/${f}`);
+const all = [...files.filter(fs.existsSync), ...migrations];
+const hashes = Object.fromEntries(all.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex')]));
+const manifest={product:'WAB-TKD',release:'v41-production-ready',createdAt:new Date().toISOString(),files:hashes};
+fs.writeFileSync('release/production-manifest.json',JSON.stringify(manifest,null,2));
+console.log('Production manifest created:', all.length, 'files');

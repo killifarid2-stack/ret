@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>WAB-TKD — World Advanced Battle Taekwondo</title>
+    <meta name="description" content="WAB-TKD — Professional Taekwondo Scoring & Tournament Management System" />
+    <meta name="author" content="WAB-TKD" />
+    <meta name="theme-color" content="#caa43d" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https: ws: wss:; media-src 'self' data: blob: https:; frame-src 'self' https:;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="WAB-TKD" />
+    <!-- FIX: these were absolute root paths ("/manifest.json", "/icon-...").
+         Vite's public/ assets are copied as-is, without the `base: "./"`
+         rewrite applied to bundled assets, so under Electron's file://
+         loading an absolute "/..." path resolves against the filesystem
+         root (e.g. C:\manifest.json), not the app folder — always 404s.
+         Harmless on its own (icons just fail to show), but it's a real bug
+         and cheap to fix, so fixed alongside the black-screen issue. -->
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./icon-512.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+
+    <meta property="og:title" content="WAB-TKD — World Advanced Battle Taekwondo" />
+    <meta property="og:description" content="Professional Taekwondo Scoring & Tournament Management" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

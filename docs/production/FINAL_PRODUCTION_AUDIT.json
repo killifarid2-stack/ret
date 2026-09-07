@@ -1,0 +1,25 @@
+{
+  "generatedAt": "2026-09-07T17:48:07.194Z",
+  "checks": {
+    "performance-ledger": true,
+    "awards-engine": true,
+    "reports-engine": true,
+    "golden-metadata": true,
+    "clock-integrity": true,
+    "public-readonly-clock": true,
+    "judge-reconnect": true,
+    "audit-trail": true,
+    "recovery": true,
+    "multi-mat-heartbeat": true,
+    "security-rls": true,
+    "production-devtools-gate": true,
+    "no-first-score-rule": true,
+    "offline-fonts": true,
+    "rest-production-flow": true,
+    "referee-award-engine": true,
+    "award-download": true
+  },
+  "forbiddenHits": [],
+  "sourceFiles": 199,
+  "status": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "product": "WAB-TKD",
+  "phase": "FINAL-INTEGRATION",
+  "preserves": ["V35 Judging", "Individual", "Par Équipe", "Multi-Mat", "Public Display", "Broadcast", "Save/Restore"],
+  "qa": {
+    "automatedLocalChecks": true,
+    "playwrightSmokeSuite": true,
+    "releaseGate": true
+  },
+  "conflictProtection": {
+    "matchControlLease": true,
+    "ttlMs": 45000
+  }
+}

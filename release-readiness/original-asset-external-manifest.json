@@ -1,0 +1,89 @@
+{
+  "count": 12,
+  "assets": [
+    {
+      "manifest_file": "src/assets/arena.jpg.asset.json",
+      "original_filename": "arena.jpg",
+      "asset_id": "ad203320-8490-41ed-be1d-2dfa402e558a",
+      "size": 121757,
+      "url": "/__l5e/assets-v1/ad203320-8490-41ed-be1d-2dfa402e558a/arena.jpg"
+    },
+    {
+      "manifest_file": "src/assets/athlete.png.asset.json",
+      "original_filename": "athlete.png",
+      "asset_id": "f58b8643-6d65-404b-82c6-a5ce7777c18b",
+      "size": 1686673,
+      "url": "/__l5e/assets-v1/f58b8643-6d65-404b-82c6-a5ce7777c18b/athlete.png"
+    },
+    {
+      "manifest_file": "src/assets/chest-blue.png.asset.json",
+      "original_filename": "chest-blue.png",
+      "asset_id": "d67749a2-5f7c-41ef-a120-008bc6b8cdce",
+      "size": 2657202,
+      "url": "/__l5e/assets-v1/d67749a2-5f7c-41ef-a120-008bc6b8cdce/chest-blue.png"
+    },
+    {
+      "manifest_file": "src/assets/chest-red.png.asset.json",
+      "original_filename": "chest-red.png",
+      "asset_id": "f0218dcc-4291-46b5-a62d-d934dbc6e744",
+      "size": 3035083,
+      "url": "/__l5e/assets-v1/f0218dcc-4291-46b5-a62d-d934dbc6e744/chest-red.png"
+    },
+    {
+      "manifest_file": "src/assets/helmet-blue.png.asset.json",
+      "original_filename": "helmet-blue-v2.png",
+      "asset_id": "7480a242-6298-4ea8-b8f6-d874cbae1456",
+      "size": 2232044,
+      "url": "/__l5e/assets-v1/7480a242-6298-4ea8-b8f6-d874cbae1456/helmet-blue-v2.png"
+    },
+    {
+      "manifest_file": "src/assets/helmet-red.png.asset.json",
+      "original_filename": "helmet-red.png",
+      "asset_id": "c84ad2e5-c537-4fca-bed4-7db16a1c65d2",
+      "size": 1838760,
+      "url": "/__l5e/assets-v1/c84ad2e5-c537-4fca-bed4-7db16a1c65d2/helmet-red.png"
+    },
+    {
+      "manifest_file": "src/assets/medal-bronze.png.asset.json",
+      "original_filename": "medal-bronze.png",
+      "asset_id": "0d370601-9d1a-465e-8e44-831168edfc43",
+      "size": 1874610,
+      "url": "/__l5e/assets-v1/0d370601-9d1a-465e-8e44-831168edfc43/medal-bronze.png"
+    },
+    {
+      "manifest_file": "src/assets/medal-championship-transparent.png.asset.json",
+      "original_filename": "medal-championship-transparent.png",
+      "asset_id": "c322cc1c-728d-4210-b96a-2e25571ae37d",
+      "size": 2049226,
+      "url": "/__l5e/assets-v1/c322cc1c-728d-4210-b96a-2e25571ae37d/medal-championship-transparent.png"
+    },
+    {
+      "manifest_file": "src/assets/medal-championship.png.asset.json",
+      "original_filename": "medal-championship.png",
+      "asset_id": "b2b87cca-c61c-4546-bd73-a16692691982",
+      "size": 1984417,
+      "url": "/__l5e/assets-v1/b2b87cca-c61c-4546-bd73-a16692691982/medal-championship.png"
+    },
+    {
+      "manifest_file": "src/assets/medal-gold.png.asset.json",
+      "original_filename": "medal-gold.png",
+      "asset_id": "a3f4f487-8eeb-427b-b35b-16e94eabbd8a",
+      "size": 2366795,
+      "url": "/__l5e/assets-v1/a3f4f487-8eeb-427b-b35b-16e94eabbd8a/medal-gold.png"
+    },
+    {
+      "manifest_file": "src/assets/player-portrait.png.asset.json",
+      "original_filename": "player-portrait.png",
+      "asset_id": "74614cab-dece-4f5c-aa86-31d734d08c0d",
+      "size": 2114984,
+      "url": "/__l5e/assets-v1/74614cab-dece-4f5c-aa86-31d734d08c0d/player-portrait.png"
+    },
+    {
+      "manifest_file": "src/assets/player.png.asset.json",
+      "original_filename": "player.png",
+      "asset_id": "1aa1b7c1-8ecb-4f92-9e2a-8aa71491909e",
+      "size": 887508,
+      "url": "/__l5e/assets-v1/1aa1b7c1-8ecb-4f92-9e2a-8aa71491909e/player.png"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "deviceName": "WAB-MAT-01-PC",
+  "matNumber": "MAT-01",
+  "role": "HYBRID",
+  "tournamentWallUrl": "https://YOUR-PRODUCTION-DOMAIN/tournament-wall",
+  "notes": "Copy to a device-local config. Do not commit real device secrets."
+}

@@ -1,0 +1,21 @@
+# WAB-TKD — Production Release Checklist
+
+- [ ] Database backup created
+- [ ] Migrations ordered and reviewed
+- [ ] Production env configured
+- [ ] No secrets in frontend bundle or repository
+- [ ] `npm run production:check`
+- [ ] `npm run mat:check`
+- [ ] `npm run lint`
+- [ ] `npm run test`
+- [ ] `npm run build`
+- [ ] Preview smoke test
+- [ ] Main Referee smoke test
+- [ ] Public Display smoke test
+- [ ] Par Équipe Save/Restore smoke test
+- [ ] Multi-Mat ownership smoke test
+- [ ] Offline/reconnect smoke test
+- [ ] Supervisor approval
+- [ ] Production deploy
+- [ ] Production manifest archived
+- [ ] Recovery package archived

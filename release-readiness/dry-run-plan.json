@@ -1,0 +1,57 @@
+{
+  "generatedAt": "2026-09-05T09:36:19.496Z",
+  "type": "WAB-TKD-PRODUCTION-DRY-RUN",
+  "status": "READY_FOR_LIVE_EXECUTION",
+  "checks": [
+    {
+      "id": "registration",
+      "description": "Registration → Player/Team created",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "draw",
+      "description": "Draw → Bracket generated",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "mat-assignment",
+      "description": "Mat assignment → weight routed to configured mat",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "call-flow",
+      "description": "Team Call → Player Call → Matchup",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "referee",
+      "description": "Referee → scoring/result flow",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "save-restore",
+      "description": "Save → Restore safe snapshot",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "next-match",
+      "description": "Completed → next queued match",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "stats",
+      "description": "Result → statistics/ranking/MVP update",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "broadcast",
+      "description": "Result → public/broadcast state",
+      "status": "NOT_RUN"
+    },
+    {
+      "id": "archive",
+      "description": "Finalize → final snapshot/archive",
+      "status": "NOT_RUN"
+    }
+  ]
+}
